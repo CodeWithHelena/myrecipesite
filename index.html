@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> my document </title>
+	<style type="text/css">
+	  *{
+	  	margin: 0;
+	  	padding: 0
+	  	box-sizing: border-box;
+	  	font-size: arial;
+	  }
+
+	  body{ /*
+	  	background-color: rgb(240, 240, 240);
+	  	*/
+	  }
+
+	  header{
+	  	background-image: url('images/spaghetti.jpg');
+	  	background-repeat: no-repeat;
+	  	background-size: cover;
+	   	background-position: center;
+	  	height: 500px;
+	  	max-width: 100%;
+	  	margin-bottom: 0px;
+	  }
+
+	  nav{
+	  	background-color: #24252A;
+	  	opacity: 0.8;
+        display: flex;
+        align-item: center;
+        justify-content: space-between;
+        padding-top: 25px;
+	   	padding-left: 10%;
+	   	padding-right: 10%;
+	  }
+
+	  .logo{
+	  	color: white;
+	  	font-size: 20px;
+	  	padding-top: 10px;
+	  }
+
+	  span{
+	  	color: #ea1538;
+	  }
+	  nav ul li{
+	  	list-style-type: none;
+	  	display: inline-block;
+	  	padding: 10px 20px;
+	  }
+
+	  ul li a{
+	  	color: white;
+	  	text-decoration: none;
+	  	font-size: 20px;
+	  	font-weight: bold;
+	  }
+
+	  ul li a:hover{
+	  	color: #ea1538;
+	  	transition: 2s;
+	  }
+
+	  section{
+	  	height: 1000px;
+	  	width: 1100px;
+	  	margin: auto;
+
+	  }
+
+	  .container{
+	  	background-color: rgb(240, 240, 240);
+	  	height: 1300px;
+	  	width: 1000px;
+	  	border-radius: 10px;	  	
+	  	margin-left: 50px;
+	  	box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+	  }
+
+	  section h2{
+	  	background-color: rgb(96,96,96);
+	  	height: 50px;
+	  	width: 40%;
+	  	display: flex;
+	  	justify-content: center;
+	  	padding-top: 15px;
+	  	margin-top: 50px;
+	  	margin-left: 300px;
+	  }
+	  .article1-box{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 40px;
+
+	  }
+
+	  .article1{
+	  	width: 400px;
+	  }
+
+	  .article1 h3{
+	  	font-size: 30px;
+	  }
+
+	  .article1 ul li{
+	  	font-size: 20px;
+	  	line-height: 30px;
+	  }
+
+
+	  .article2 h3{
+	  	font-size: 30px;
+	  	padding-left: 20px;
+	  	padding-bottom: 15px;
+	  }
+
+	  .article2 ul li{
+	  	width: 800px;
+	  	font-size: 20px;
+	  	line-height: 30px;
+	  }
+
+	  .order-section{
+
+	  }
+
+	  .dell{
+	  	font-size: 20px;
+	  }
+
+	  .order-section p{
+	  	padding-top: 20px;
+	  }
+
+	  .temperature{
+	  	display: flex;
+	  	padding-top: 10px;
+	  }
+
+	  .temperature p{
+	  	padding-top: 0;
+	  	padding-left: 10px;
+	  	padding-right: 10px;
+	  }
+
+     .terms{
+     	display: flex;
+     }
+
+     .terms p{
+     	padding-top: 0;
+        padding-left: 10px;
+     }
+
+     .order-section button{
+     	height: 30px;
+     	width: 100px;
+     	border-radius: 40px;
+     	margin-top: 10px;
+     }
+
+
+	  footer{
+	  	margin-top: 500px;
+	  	background-color: rgb(240, 240, 240);
+	  	color: rgb(96, 96, 96);
+	  	height: 100px;
+	  	max-width: 100%;
+	  }
+
+	  .footer-content{
+	  	display: flex;
+	  	flex-direction: column;
+	  	justify-content: center;
+	  	align-item: center;
+	  	text-align: center;
+	  	padding: 20px 0px;
+	  }
+
+	  .footer-terms{
+	  	display: flex;
+	  	justify-content: center;
+	  	padding-bottom: 5px;
+	  }
+
+	  .order-section{
+	  	margin-left: 40px;
+	  	margin-top: 40px;
+	  }
+
+	  
+
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<h1 class="logo">Helena's <span>Reciepe</span></h1>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="header2">
+			<img src="images/anna-pelzer.jg">
+		</div>
+		<section>
+		<h2> Delicious Spaghetti Reciepe </h2>
+		   <div class="container">
+		   	   <div class="article1-box">
+			   	   <div class="article1">
+			   	   	   <h3> Ingredient</h3>
+			   	   	   <ul>
+			   	   	   	   <li>1lb usually 1box of thin spaghetti</li>
+			   	   	   	   <li>3/4 cups of chicken stock, i used a home made stock</li>
+			   	   	   	   <li>5 large about 2 lbs plum/roma tomatoes</li>
+			   	   	   	   <li>1 large onion</li>
+			   	   	   	   <li>1 red bell pepper</li>
+			   	   	   	   <li>2 scotch bonnet peppers</li>
+			   	   	   	   <li>3 table spoon bovillion powder</li>
+			   	   	   	   <li>1 table spoon dried thyme</li>
+			   	   	   	   <li>1 table spoon curry powder</li>
+			   	   	   	   <li>A small handfull of basil(optional)</li>
+			   	   	   	   <li>salt to taste</li>
+			   	   	   	  
+			   	   	   </ul>
+			   	   </div>
+			   	   <img src="images/spaghetti-2.jpg" height="350px" width="400px">
+		   	   </div>
+		   	   <div class="article2">
+		   	   	   <h3> Directions </h3>
+		   	   	   <ul>
+		   	   	   	   <li> Blend the tomatoes, onion, and peppers until smooth.</li>
+		   	   	   	   <li> Boil down the tomatoes sauce on in a pot on medium-high heat until the sauce is about half the ammount,
+		   	   	   	        and has thickened significantly to look like a paste. This takes about 15-minutes, depending on how high the heat is.</li>
+		   	   	   	   <li> Be sure to stir the sauce occasionally to prevent it from burning. </li>
+		   	   	   	   <li> Once the sauce is reduced, pour in the stock, oil thyme curry powder and bovillon. At this stage, taste the sauce and 
+		   	   	   	   	    djust for salt.</li>
+		   	   	   	   <li> Add the spaghetti, pushing it down or breaking it to fit the pot. </li>
+		   	   	   	   <li> Cover and allow to cook for 5 minutes on low-medium heat.</li>
+		   	   	   	   <li> After 5 minutes the pasta should be soft enough to stir. Stir, turn down the heat to low, and allow to cook for 
+		   	   	   	   	    another 8-10 minutes. </li>
+		   	   	   	   <li> After 8 minutes, stir, and the pasta should be cooked. if it is not, add in a splash (about 1/4 cup) of water and 
+		   	   	   	   	    continue to cook for another 5 minutes.</li>
+		   	   	   	   	<li> If you choose to add basil, add it in at this stage, then serve.</li>
+		   	   	   </ul>
+		   	   </div> 
+		   	   <hr>
+		   	   <div class="order-section">
+		   	   	   
+		   	   	   <p class="dell"> Delicious spaghetti</p>
+		   	   	   <p> N2,500 per plate,</p>
+		   	   	   <div class="temperature">
+		   	   	       <input type="radio" id="hot" name="hot" value="">
+		   	   	       <p>Hot</p>
+		   	   	       <input type="radio" id="hot" name="hot" value="">
+		   	   	       <p>Cold</p>
+		   	       </div>
+		   	       <div class="terms">
+		   	   	       <input type="checkbox" id="terms-c" name="terms-c" value="">
+		   	   	       <p> Accept Terms & condition</p>
+		   	   	   </div>
+		   	   	   <button> Order Now </button>
+
+
+
+		   	   </div>  
+		   </div>
+	    </section>
+	</main>
+
+	<footer>
+		<div class="footer-content">
+			<div class="footer-terms">
+			    <p> Terms of Service</p>
+			     <p> Privacy and Policy</p>
+		    </div>
+			<p> &copy copyright 2023 Helena's Reciepe. All Rights REserved</p>
+		</div>
+	</footer>
+	  
+</body>
+</html
